@@ -1,13 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1d30751a-4707-43f5-88ab-f7501e5f26be" name="Default Changelist" comment="" />
+    <list default="true" id="1d30751a-4707-43f5-88ab-f7501e5f26be" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/secret/dialogflow-dtl-firebase-adminsdk-y3xds-4feb830f14.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Service/FirestoreConnector.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dialogflow_dtl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dialogflow_dtl.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Factory/ResponseFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Factory/ResponseFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
@@ -57,9 +67,33 @@
       <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
       <path value="$PROJECT_DIR$/vendor/symfony/deprecation-contracts" />
       <path value="$PROJECT_DIR$/vendor/symfony/maker-bundle" />
+      <path value="$PROJECT_DIR$/vendor/kreait/firebase-php" />
+      <path value="$PROJECT_DIR$/vendor/kreait/clock" />
+      <path value="$PROJECT_DIR$/vendor/kreait/firebase-tokens" />
+      <path value="$PROJECT_DIR$/vendor/fig/http-message-util" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/rize/uri-template" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-client" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/riverline/multipart-parser" />
+      <path value="$PROJECT_DIR$/vendor/lcobucci/jwt" />
+      <path value="$PROJECT_DIR$/vendor/google/cloud-core" />
+      <path value="$PROJECT_DIR$/vendor/google/auth" />
+      <path value="$PROJECT_DIR$/vendor/google/crc32" />
+      <path value="$PROJECT_DIR$/vendor/google/cloud-storage" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/mtdowling/jmespath.php" />
+      <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/vendor/giggsey/libphonenumber-for-php" />
+      <path value="$PROJECT_DIR$/vendor/giggsey/locale" />
+      <path value="$PROJECT_DIR$/vendor/firebase/php-jwt" />
     </include_path>
   </component>
   <component name="ProjectId" id="1l04lE1mmQjdwszbtpl2MK23bZx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -68,8 +102,16 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ChatBotPro" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/secret" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/secret" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -81,7 +123,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606720823240</updated>
-      <workItem from="1606720824643" duration="8532000" />
+      <workItem from="1606720824643" duration="9315000" />
+      <workItem from="1606806240352" duration="8402000" />
     </task>
     <servers />
   </component>
@@ -89,25 +132,41 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1108" y="358" width="654" height="397" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606807155204">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="1108" y="358" width="654" height="397" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1606807155204" />
     <state x="584" y="27" width="664" height="1053" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1606730540867">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="584" y="27" width="664" height="1053" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1606730540867" />
+    <state x="693" y="311" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1606812017605">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="693" y="311" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1606812017605" />
     <state x="1223" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1606724330384">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="1223" y="311" width="424" height="491" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1606724330384" />
-    <state x="1214" y="367" width="506" height="401" key="NewPhpClassDialog" timestamp="1606730405190">
+    <state x="1387" y="246" width="505" height="422" key="NewPhpClassDialog" timestamp="1606812236152">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="1214" y="367" width="506" height="401" key="NewPhpClassDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1606730405190" />
-    <state x="1235" y="479" width="400" height="156" key="NewPhpFileDialog" timestamp="1606728212780">
+    <state x="1387" y="246" width="505" height="422" key="NewPhpClassDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1606812236152" />
+    <state x="1235" y="479" width="400" height="156" key="NewPhpFileDialog" timestamp="1606812209026">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="1235" y="479" width="400" height="156" key="NewPhpFileDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1606728212780" />
+    <state x="1235" y="479" width="400" height="156" key="NewPhpFileDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1606812209026" />
     <state x="898" y="188" width="1022" height="737" key="SettingsEditor" timestamp="1606728886154">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="898" y="188" width="1022" height="737" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1606728886154" />
+    <state x="1091" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1606806239823">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="1091" y="381" key="com.intellij.ide.util.TipDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1606806239823" />
+    <state x="1004" y="95" width="725" height="670" key="dock-window-1" timestamp="1606810036603">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="1004" y="95" width="725" height="670" key="dock-window-1/0.27.1920.1053@0.27.1920.1053" timestamp="1606810036603" />
   </component>
 </project>
