@@ -20,5 +20,5 @@ class Covid19 implements ResponseInterface
 
 
         return 'Total: ' . $total.'<br>Deaths: '.$deceased.'<br>Recovered: '. $recovered.'<br>Active: '.$treated;
-    }
+    } 
 }
